@@ -64,7 +64,8 @@ tr,
 th,
 td,
 figure,
-button {
+button,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -73,17 +74,21 @@ button {
   vertical-align: baseline;
   background: transparent;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -101,6 +106,7 @@ q:after {
 ins {
   text-decoration: none;
 }
+
 del {
   text-decoration: line-through;
 }
@@ -110,6 +116,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 a {
   text-decoration: none;
   color: inherit;
